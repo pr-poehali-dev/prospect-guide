@@ -46,21 +46,21 @@ const PortfolioPage = ({ achievements, userStats }: PortfolioPageProps) => {
           </CardContent>
         </Card>
 
-        <Card className="border-2 border-blue-200 animate-scale-in">
+        <Card className="border-2 border-green-200 animate-scale-in">
           <CardHeader>
             <CardTitle className="text-lg text-gray-600">Проектов</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-4xl font-bold text-blue-600">{userStats.projects}</div>
+            <div className="text-4xl font-bold text-green-600">{userStats.projects}</div>
           </CardContent>
         </Card>
 
-        <Card className="border-2 border-orange-200 animate-scale-in">
+        <Card className="border-2 border-purple-200 animate-scale-in">
           <CardHeader>
             <CardTitle className="text-lg text-gray-600">Баллов</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-4xl font-bold text-orange-600">{userStats.points}</div>
+            <div className="text-4xl font-bold text-purple-600">{userStats.points}</div>
           </CardContent>
         </Card>
       </div>
@@ -74,7 +74,7 @@ const PortfolioPage = ({ achievements, userStats }: PortfolioPageProps) => {
             {achievements.map((achievement, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-purple-50 to-pink-50 hover:shadow-lg transition-all hover:scale-[1.02]"
+                className="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-purple-50 to-green-50 hover:shadow-lg transition-all hover:scale-[1.02]"
               >
                 <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center flex-shrink-0">
                   <Icon name={achievement.icon as any} className="text-white" size={24} />

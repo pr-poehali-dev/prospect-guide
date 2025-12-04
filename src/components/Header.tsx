@@ -8,7 +8,7 @@ interface HeaderProps {
 
 const Header = ({ activeTab, setActiveTab }: HeaderProps) => {
   return (
-    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-purple-100">
+    <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-green-100">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">

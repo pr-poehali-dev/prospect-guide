@@ -18,13 +18,13 @@
     --primary: 271 81% 56%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 327 73% 60%;
+    --secondary: 142 76% 36%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 240 5% 96%;
     --muted-foreground: 240 4% 46%;
 
-    --accent: 24 95% 53%;
+    --accent: 142 71% 45%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -114,10 +114,10 @@
 
 @layer utilities {
   .gradient-text {
-    @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-purple-600 via-purple-500 to-green-600 bg-clip-text text-transparent;
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-br from-primary via-secondary to-accent;
+    @apply bg-gradient-to-br from-purple-600 via-purple-500 to-green-600;
   }
 }

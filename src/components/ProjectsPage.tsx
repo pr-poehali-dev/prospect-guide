@@ -71,7 +71,7 @@ const ProjectsPage = ({ projects }: ProjectsPageProps) => {
                   <Icon name="Users" size={16} />
                   <span className="font-semibold">{project.participants}</span>
                 </div>
-                <div className="flex items-center gap-2 text-orange-600">
+                <div className="flex items-center gap-2 text-green-600">
                   <Icon name="Clock" size={16} />
                   <span className="font-semibold">{project.deadline}</span>
                 </div>

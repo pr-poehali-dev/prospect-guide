@@ -50,7 +50,7 @@ const HomePage = ({ projects }: HomePageProps) => {
         <div className="grid md:grid-cols-3 gap-6">
           <Card className="border-2 border-purple-100 hover:border-purple-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
             <CardHeader>
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center mb-4">
                 <Icon name="Search" className="text-white" size={32} />
               </div>
               <CardTitle className="text-2xl">Поиск проектов</CardTitle>
@@ -62,9 +62,9 @@ const HomePage = ({ projects }: HomePageProps) => {
             </CardContent>
           </Card>
 
-          <Card className="border-2 border-blue-100 hover:border-blue-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
+          <Card className="border-2 border-green-100 hover:border-green-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
             <CardHeader>
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center mb-4">
                 <Icon name="FolderOpen" className="text-white" size={32} />
               </div>
               <CardTitle className="text-2xl">Портфолио</CardTitle>
@@ -76,9 +76,9 @@ const HomePage = ({ projects }: HomePageProps) => {
             </CardContent>
           </Card>
 
-          <Card className="border-2 border-orange-100 hover:border-orange-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
+          <Card className="border-2 border-purple-100 hover:border-purple-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
             <CardHeader>
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-green-600 flex items-center justify-center mb-4">
                 <Icon name="TrendingUp" className="text-white" size={32} />
               </div>
               <CardTitle className="text-2xl">Развитие</CardTitle>
@@ -120,7 +120,7 @@ const HomePage = ({ projects }: HomePageProps) => {
                     <Icon name="Users" size={16} />
                     <span className="font-semibold">{project.participants}</span>
                   </div>
-                  <div className="flex items-center gap-2 text-orange-600">
+                  <div className="flex items-center gap-2 text-green-600">
                     <Icon name="Clock" size={16} />
                     <span className="font-semibold">{project.deadline}</span>
                   </div>

@@ -26,7 +26,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
         <Card className="border-2 mb-8 animate-scale-in">
           <CardHeader>
             <div className="flex items-center gap-6">
-              <Avatar className="w-24 h-24 ring-4 ring-purple-200">
+              <Avatar className="w-24 h-24 ring-4 ring-green-200">
                 <AvatarImage src="" />
                 <AvatarFallback className="text-3xl font-bold gradient-bg text-white">
                   АС
@@ -74,12 +74,12 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
           <Card className="border-2 animate-fade-in">
             <CardHeader>
               <CardTitle className="text-xl flex items-center gap-2">
-                <Icon name="Briefcase" size={24} className="text-blue-600" />
+                <Icon name="Briefcase" size={24} className="text-green-600" />
                 Проекты
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-blue-600 mb-2">
+              <div className="text-4xl font-bold text-green-600 mb-2">
                 {userStats.projects}
               </div>
               <p className="text-gray-600">активных участий</p>
@@ -93,9 +93,9 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              <div className="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-blue-50 to-cyan-50">
+              <div className="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-green-50 to-emerald-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-green-600 flex items-center justify-center">
                     <Icon name="Shield" className="text-white" size={24} />
                   </div>
                   <div>
@@ -110,7 +110,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
 
               <div className="flex items-center justify-between p-4 rounded-xl bg-gray-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
                     <Icon name="Share2" className="text-white" size={24} />
                   </div>
                   <div>
@@ -125,7 +125,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
 
               <div className="flex items-center justify-between p-4 rounded-xl bg-gray-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center">
                     <Icon name="GraduationCap" className="text-white" size={24} />
                   </div>
                   <div>

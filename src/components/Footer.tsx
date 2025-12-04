@@ -2,7 +2,7 @@ import Icon from '@/components/ui/icon';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-purple-900 to-pink-900 text-white py-12 mt-16">
+    <footer className="bg-gradient-to-r from-purple-900 to-green-900 text-white py-12 mt-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
@@ -12,14 +12,14 @@ const Footer = () => {
               </div>
               <h3 className="text-2xl font-bold">ПРОрост</h3>
             </div>
-            <p className="text-purple-200">
+            <p className="text-green-200">
               Путеводитель в мире молодёжных возможностей
             </p>
           </div>
 
           <div>
             <h4 className="font-bold text-lg mb-4">Проекты</h4>
-            <ul className="space-y-2 text-purple-200">
+            <ul className="space-y-2 text-green-200">
               <li className="hover:text-white cursor-pointer transition-colors">Большая Перемена</li>
               <li className="hover:text-white cursor-pointer transition-colors">Движение Первых</li>
               <li className="hover:text-white cursor-pointer transition-colors">Твой Ход</li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
           <div>
             <h4 className="font-bold text-lg mb-4">Платформа</h4>
-            <ul className="space-y-2 text-purple-200">
+            <ul className="space-y-2 text-green-200">
               <li className="hover:text-white cursor-pointer transition-colors">О проекте</li>
               <li className="hover:text-white cursor-pointer transition-colors">Как использовать</li>
               <li className="hover:text-white cursor-pointer transition-colors">Партнёры</li>
@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div>
             <h4 className="font-bold text-lg mb-4">Контакты</h4>
-            <ul className="space-y-2 text-purple-200">
+            <ul className="space-y-2 text-green-200">
               <li className="flex items-center gap-2">
                 <Icon name="Mail" size={16} />
                 info@prorost.ru
@@ -57,7 +57,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-purple-700 pt-6 text-center text-purple-200">
+        <div className="border-t border-green-700 pt-6 text-center text-green-200">
           <p>© 2025 ПРОрост. Все права защищены.</p>
         </div>
       </div>

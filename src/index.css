@@ -15,10 +15,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
 
-    --primary: 271 81% 56%;
+    --primary: 0 84% 60%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 76% 36%;
+    --secondary: 271 81% 56%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 240 5% 96%;
@@ -114,10 +114,10 @@
 
 @layer utilities {
   .gradient-text {
-    @apply bg-gradient-to-r from-purple-600 via-purple-500 to-green-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-red-500 via-purple-600 to-green-600 bg-clip-text text-transparent;
   }
 
   .gradient-bg {
-    @apply bg-gradient-to-br from-purple-600 via-purple-500 to-green-600;
+    @apply bg-gradient-to-br from-red-500 via-purple-600 to-green-600;
   }
 }

@@ -2,14 +2,11 @@ import Icon from '@/components/ui/icon';
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-purple-900 to-green-900 text-white py-12 mt-16">
+    <footer className="bg-gradient-to-r from-red-900 via-purple-900 to-green-900 text-white py-12 mt-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
-                <Icon name="Rocket" className="text-white" size={24} />
-              </div>
               <h3 className="text-2xl font-bold">ПРОрост</h3>
             </div>
             <p className="text-green-200">

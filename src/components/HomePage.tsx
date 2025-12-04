@@ -48,9 +48,9 @@ const HomePage = ({ projects }: HomePageProps) => {
           Возможности платформы
         </h3>
         <div className="grid md:grid-cols-3 gap-6">
-          <Card className="border-2 border-purple-100 hover:border-purple-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
+          <Card className="border-2 border-red-100 hover:border-red-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
             <CardHeader>
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center mb-4">
                 <Icon name="Search" className="text-white" size={32} />
               </div>
               <CardTitle className="text-2xl">Поиск проектов</CardTitle>
@@ -78,7 +78,7 @@ const HomePage = ({ projects }: HomePageProps) => {
 
           <Card className="border-2 border-purple-100 hover:border-purple-300 transition-all hover:scale-105 hover:shadow-xl animate-fade-in">
             <CardHeader>
-              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-green-600 flex items-center justify-center mb-4">
+              <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500 to-purple-600 flex items-center justify-center mb-4">
                 <Icon name="TrendingUp" className="text-white" size={32} />
               </div>
               <CardTitle className="text-2xl">Развитие</CardTitle>
@@ -116,7 +116,7 @@ const HomePage = ({ projects }: HomePageProps) => {
               <CardContent>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex items-center justify-between text-sm">
-                  <div className="flex items-center gap-2 text-purple-600">
+                  <div className="flex items-center gap-2 text-red-600">
                     <Icon name="Users" size={16} />
                     <span className="font-semibold">{project.participants}</span>
                   </div>

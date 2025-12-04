@@ -17,7 +17,7 @@ const Index = () => {
       participants: '2.5М+',
       description: 'Всероссийский конкурс для школьников и студентов',
       icon: 'Trophy',
-      color: 'bg-gradient-to-br from-purple-500 to-purple-600',
+      color: 'bg-gradient-to-br from-red-500 to-red-600',
       deadline: '15 мая 2025'
     },
     {
@@ -37,7 +37,7 @@ const Index = () => {
       participants: '800К+',
       description: 'Профориентация и возможности для молодёжи',
       icon: 'Briefcase',
-      color: 'bg-gradient-to-br from-purple-600 to-green-600',
+      color: 'bg-gradient-to-br from-red-500 to-purple-600',
       deadline: '1 июня 2025'
     },
     {
@@ -57,7 +57,7 @@ const Index = () => {
       participants: '250К+',
       description: 'Конкурс управленцев для карьерного роста',
       icon: 'Award',
-      color: 'bg-gradient-to-br from-green-600 to-emerald-600',
+      color: 'bg-gradient-to-br from-purple-600 to-green-600',
       deadline: '30 марта 2025'
     },
     {
@@ -67,7 +67,7 @@ const Index = () => {
       participants: '1.2М+',
       description: 'Добровольческие проекты по всей России',
       icon: 'Heart',
-      color: 'bg-gradient-to-br from-purple-500 to-purple-700',
+      color: 'bg-gradient-to-br from-red-600 to-purple-700',
       deadline: 'Постоянно'
     }
   ];
@@ -107,7 +107,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-green-50 to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-red-50 via-purple-50 to-green-50">
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
 
       {activeTab === 'home' && <HomePage projects={projects} />}

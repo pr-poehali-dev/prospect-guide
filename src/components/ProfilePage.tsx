@@ -26,7 +26,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
         <Card className="border-2 mb-8 animate-scale-in">
           <CardHeader>
             <div className="flex items-center gap-6">
-              <Avatar className="w-24 h-24 ring-4 ring-green-200">
+              <Avatar className="w-24 h-24 ring-4 ring-red-200">
                 <AvatarImage src="" />
                 <AvatarFallback className="text-3xl font-bold gradient-bg text-white">
                   АС
@@ -59,7 +59,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
           <Card className="border-2 animate-fade-in">
             <CardHeader>
               <CardTitle className="text-xl flex items-center gap-2">
-                <Icon name="Trophy" size={24} className="text-purple-600" />
+                <Icon name="Trophy" size={24} className="text-red-600" />
                 Достижения
               </CardTitle>
             </CardHeader>
@@ -93,9 +93,9 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
           </CardHeader>
           <CardContent>
             <div className="space-y-4">
-              <div className="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-green-50 to-emerald-50">
+              <div className="flex items-center justify-between p-4 rounded-xl bg-gradient-to-r from-red-50 to-green-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-green-600 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center">
                     <Icon name="Shield" className="text-white" size={24} />
                   </div>
                   <div>
@@ -110,7 +110,7 @@ const ProfilePage = ({ userStats }: ProfilePageProps) => {
 
               <div className="flex items-center justify-between p-4 rounded-xl bg-gray-50">
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center">
+                  <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-purple-600 flex items-center justify-center">
                     <Icon name="Share2" className="text-white" size={24} />
                   </div>
                   <div>

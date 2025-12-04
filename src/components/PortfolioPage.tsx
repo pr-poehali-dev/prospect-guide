@@ -37,12 +37,12 @@ const PortfolioPage = ({ achievements, userStats }: PortfolioPageProps) => {
       </div>
 
       <div className="grid lg:grid-cols-3 gap-6 mb-8">
-        <Card className="border-2 border-purple-200 animate-scale-in">
+        <Card className="border-2 border-red-200 animate-scale-in">
           <CardHeader>
             <CardTitle className="text-lg text-gray-600">Всего наград</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-4xl font-bold gradient-text">{userStats.achievements}</div>
+            <div className="text-4xl font-bold text-red-600">{userStats.achievements}</div>
           </CardContent>
         </Card>
 
@@ -74,7 +74,7 @@ const PortfolioPage = ({ achievements, userStats }: PortfolioPageProps) => {
             {achievements.map((achievement, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-purple-50 to-green-50 hover:shadow-lg transition-all hover:scale-[1.02]"
+                className="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-red-50 via-purple-50 to-green-50 hover:shadow-lg transition-all hover:scale-[1.02]"
               >
                 <div className="w-12 h-12 rounded-xl gradient-bg flex items-center justify-center flex-shrink-0">
                   <Icon name={achievement.icon as any} className="text-white" size={24} />
